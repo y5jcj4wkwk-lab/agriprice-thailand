@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "AgriPrice Thailand",
+      "hasCanvas": false,
+      "bodyTextLen": 2428,
+      "bodyTextHash": "4a3c802e3e350a05e8b5d9cab69108cd8c37376a3ae92629bfc99c60de4a94da",
+      "bodyTextPrefix": "AgriPrice ประเทศไทย ภาพรวม แผนที่ตลาด วันศุกร์ที่ 28 สิงหาคม 256",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "AgriPrice Thailand",
+      "hasCanvas": false,
+      "bodyTextLen": 2407,
+      "bodyTextHash": "83a6712d6ec7510fc41eca53136f50422d069d07d8b9ea81908f829ddd82bd60",
+      "bodyTextPrefix": "AgriPrice ประเทศไทย วันศุกร์ที่ 28 สิงหาคม 2569 ภาพรวม แผนที่ตลา",
+      "horizontalOverflow": true,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

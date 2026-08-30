@@ -1,0 +1,66 @@
+คัดลอก Prompt ด้านล่างนี้ไปวางใน Grok Build ได้ทันที:
+Act as a Senior Full-Stack Engineer and UI/UX Designer. Build a production-ready Web Application named "AgriPrice Thailand" (ระบบติดตามราคาพืชผลทางการเกษตรและวิเคราะห์แนวโน้มตลาดด้วย AI).
+
+### 1. TECH STACK & ARCHITECTURE
+- Frontend: React (Vite / Next.js App Router), Tailwind CSS, Lucide React Icons, Recharts (for price history charts), Leaflet / React-Leaflet (for market map).
+- Backend & Database: Supabase (PostgreSQL, Supabase JS Client).
+- Styling & UX: Clean, modern, mobile-responsive, data-dense yet easy for Thai farmers/traders to read. Palette: Agricultural green (#16a34a), neutral slate backgrounds, clear red/green badges for price changes.
+
+---
+
+### 2. DATABASE SCHEMA (SUPABASE POSTGRESQL)
+Assume the following tables and RLS are already configured or generate the Supabase Client integration matching this structure:
+
+1. `commodities`
+   - `id` (uuid, PK), `code` (varchar, unique), `name_th` (text), `name_en` (text), `category` (text: Rice, Rubber, Palm, Cassava, Corn), `standard_unit` (text), `is_active` (boolean).
+2. `market_sources`
+   - `id` (uuid, PK), `name` (text), `source_type` (text), `province` (text), `region` (text), `latitude` (numeric), `longitude` (numeric).
+3. `market_prices` (Fact Table - Real market prices only)
+   - `id` (uuid, PK), `commodity_id` (uuid, FK), `source_id` (uuid, FK), `price_date` (date), `min_price` (numeric), `max_price` (numeric), `avg_price` (numeric), `unit` (text), `status` (text).
+   - Unique constraint: `(commodity_id, source_id, price_date)`.
+4. `ai_market_insights` (AI-generated trend analysis)
+   - `id` (uuid, PK), `commodity_id` (uuid, FK), `insight_date` (date), `trend_direction` (enum: 'up' | 'down' | 'stable'), `summary_th` (text), `key_drivers` (text[]), `confidence_score` (numeric), `model_version` (text).
+
+---
+
+### 3. CORE APP MODULES & SCREENS
+
+#### Screen 1: Overview Dashboard (`/`)
+- Header: App Logo, Date Selector, Region/Category Filter chips (ข้าว, ยางพารา, ปาล์ม, มันสำปะหลัง, ทั้งหมด).
+- Summary Stats: Cards displaying today's featured commodity prices with daily change percentage (+/- %), min/max range, and unit.
+- Real-time Price Grid: Interactive cards for each commodity showing:
+  * Commodity Name (Thai & English)
+  * Latest Average Price with status badge ("ราคาทางการจาก DIT")
+  * Trend indicator icon (arrow up/down/equal)
+  * Quick sparkline chart of past 7 days
+  * One-line AI Trend summary preview badge.
+
+#### Screen 2: Commodity Deep Dive & AI Analysis (`/commodity/:code`)
+- Price Historical Chart: Interactive Recharts Line/Area chart with toggleable periods (7 Days, 30 Days, 3 Months).
+- AI Market Intelligence Box (Strictly separated visual box with glowing AI accent):
+  * Trend Prediction Tag (เช่น "แนวโน้มขาขึ้น ↗️")
+  * Bulleted Summary (`summary_th`)
+  * Market Drivers Tag List (`key_drivers` เช่น ["ปริมาณฝนลดลงในพื้นที่", "ความต้องการส่งออกเพิ่มขึ้น"])
+  * Disclaimer footer: *"บทวิเคราะห์ประมวลผลจากข้อมูลราคาจริงย้อนหลัง โดยโมเดล Gemini"*
+- Market Breakdown Table: Comparison of prices across different physical markets/provinces for this commodity.
+
+#### Screen 3: Interactive Market Map (`/map`)
+- Full-page map with pins for central markets across Thailand (สุราษฎร์ธานี, สงขลา, สุรินทร์, นนทบุรี).
+- Clicking a market marker opens a Popup/Drawer showing current purchasing prices for major commodities at that location.
+
+---
+
+### 4. DATA LOGIC & INTEGRATION RULES
+- **Strict Data Integrity:** Raw price displays must always pull directly from `market_prices`. AI analysis must only pull from `ai_market_insights`. Never allow the UI to generate synthetic price numbers on the fly.
+- **Supabase Integration:**
+  * Create `lib/supabase.ts` initialization.
+  * Provide fallback Mock Data in case Supabase environment variables (`NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`) are not provided, so the UI can be previewed immediately.
+- **Language & Formatting:**
+  * All user-facing UI labels, units, and dates must be formatted in Thai (e.g., "บาท/ตัน", "บาท/กก.", วันที่แบบภาษาไทย).
+  * Format all currency values with commas and 2 decimal points.
+
+---
+
+### 5. IMPLEMENTATION DELIVERABLE
+Build the complete interactive frontend code structure, components, Supabase queries, and state management so the application is immediately testable and functional.
+
