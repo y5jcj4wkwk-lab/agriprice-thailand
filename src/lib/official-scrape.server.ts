@@ -1,14 +1,20 @@
+import { existsSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 import type { Commodity, MarketPrice, MarketSource, OfficialBoard } from "./types";
 
-const UA = "AgriPriceThailand/1.0 (+https://grok.me)";
+const UA =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36";
 
-async function fetchText(url: string, timeoutMs = 15000): Promise<string | null> {
+async function fetchText(url: string, timeoutMs = 20000): Promise<string | null> {
   try {
     const res = await fetch(url, {
       headers: {
         "User-Agent": UA,
-        Accept: "text/html,application/xhtml+xml,application/json",
+        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "th-TH,th;q=0.9,en-US;q=0.8,en;q=0.7",
+        Referer: "https://www.thainr.com/th/?detail=pr-local",
       },
+      redirect: "follow",
       signal: AbortSignal.timeout(timeoutMs),
     });
     if (!res.ok) return null;
@@ -542,6 +548,35 @@ function row(
   };
 }
 
+function loadPreviousBoard(): OfficialBoard | null {
+  try {
+    const file = join(process.cwd(), "public/data/official-board.json");
+    if (!existsSync(file)) return null;
+    return JSON.parse(readFileSync(file, "utf8")) as OfficialBoard;
+  } catch {
+    return null;
+  }
+}
+
+function maxDate(prices: MarketPrice[], commodityId: string): string {
+  return prices
+    .filter((p) => p.commodity_id === commodityId)
+    .reduce((max, p) => (p.price_date > max ? p.price_date : max), "");
+}
+
+/** Never let a thin / fallback scrape wipe a newer print we already published. */
+function mergeWithPrevious(fresh: MarketPrice[], previous: MarketPrice[] | undefined): MarketPrice[] {
+  if (!previous?.length) return fresh;
+  const ids = new Set([...fresh, ...previous].map((p) => p.commodity_id));
+  const out: MarketPrice[] = [];
+  for (const id of ids) {
+    const a = fresh.filter((p) => p.commodity_id === id);
+    const b = previous.filter((p) => p.commodity_id === id);
+    out.push(...(maxDate(b, id) > maxDate(a, id) ? b : a.length ? a : b));
+  }
+  return out;
+}
+
 let cache: { at: number; board: OfficialBoard } | null = null;
 
 export async function scrapeOfficialBoard(): Promise<OfficialBoard> {
@@ -682,7 +717,17 @@ export async function scrapeOfficialBoard(): Promise<OfficialBoard> {
     );
   }
 
-  const asOf = prices.reduce((max, p) => (p.price_date > max ? p.price_date : max), "2026-08-26");
+  const previous = loadPreviousBoard();
+  const merged = mergeWithPrevious(prices, previous?.prices);
+  if (merged !== prices && previous) {
+    const rubberPrev = maxDate(previous.prices, "cmd-rubber-rss3");
+    const rubberNow = maxDate(prices, "cmd-rubber-rss3");
+    if (rubberPrev > rubberNow) {
+      notes.push(`ยาง: ตารางเดือนปัจจุบันยังว่าง — คงราคาประกาศล่าสุด ${rubberPrev}`);
+    }
+  }
+
+  const asOf = merged.reduce((max, p) => (p.price_date > max ? p.price_date : max), "2026-08-26");
   const board: OfficialBoard = {
     meta: {
       asOf,
@@ -693,7 +738,7 @@ export async function scrapeOfficialBoard(): Promise<OfficialBoard> {
     },
     commodities: COMMODITIES,
     sources: SOURCES,
-    prices,
+    prices: merged,
   };
   cache = { at: Date.now(), board };
   return board;

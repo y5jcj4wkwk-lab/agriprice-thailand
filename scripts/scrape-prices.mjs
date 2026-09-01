@@ -14,14 +14,22 @@ const { scrapeOfficialBoard } = await import(scrapeUrl);
 const board = await scrapeOfficialBoard();
 const outDir = join(root, "public/data");
 mkdirSync(outDir, { recursive: true });
-const outFile = join(outDir, "official-board.json");
-writeFileSync(outFile, `${JSON.stringify(board, null, 2)}\n`);
+writeFileSync(join(outDir, "official-board.json"), `${JSON.stringify(board, null, 2)}\n`);
+
+const lastByCommodity = {};
+for (const p of board.prices) {
+  const prev = lastByCommodity[p.commodity_id];
+  if (!prev || p.price_date > prev) lastByCommodity[p.commodity_id] = p.price_date;
+}
 
 const summary = {
   file: "public/data/official-board.json",
   asOf: board.meta.asOf,
+  scrapedAt: board.meta.scrapedAt,
   live: board.meta.live,
   sources: board.meta.sources,
   prices: board.prices.length,
+  lastByCommodity,
+  notes: board.meta.notes,
 };
 console.log(JSON.stringify(summary, null, 2));
