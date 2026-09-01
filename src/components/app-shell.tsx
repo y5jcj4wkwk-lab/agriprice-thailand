@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight, MapPinned, LayoutGrid } from "lucide-react";
 import type { ReactNode } from "react";
 import { Wordmark } from "@/components/logo";
 import { Button } from "@/components/ui/button";
-import { formatDateLong } from "@/lib/format";
+import { formatDateLong, formatTimeBangkok, bangkokToday } from "@/lib/format";
 import type { OfficialMeta } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
@@ -119,7 +119,9 @@ export function AppShell({
       </header>
       {meta ? (
         <div className="border-b border-line bg-primary-soft/60 px-4 py-1.5 text-center text-[12px] text-primary-dark">
-          {meta.live ? "ราคาทางการล่าสุด" : "ราคาทางการที่ตรวจสอบได้ล่าสุด"} · {formatDateLong(meta.asOf)} ·{" "}
+          {meta.live ? "ราคาทางการล่าสุด" : "ราคาทางการที่ตรวจสอบได้ล่าสุด"} · {formatDateLong(meta.asOf)}
+          {meta.asOf < bangkokToday() ? " · แหล่งยังไม่ประกาศครบวันนี้" : ""}
+          {meta.scrapedAt ? ` · ดึงเมื่อ ${formatTimeBangkok(meta.scrapedAt)} น.` : ""} ·{" "}
           {meta.sources.slice(0, 4).join(" · ")}
         </div>
       ) : null}

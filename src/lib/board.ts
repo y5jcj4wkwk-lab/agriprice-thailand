@@ -8,8 +8,9 @@ function snapshotPath(): string {
 }
 
 async function loadSnapshot(): Promise<OfficialBoard> {
+  const url = `${snapshotPath()}?t=${Date.now()}`;
   if (typeof window !== "undefined") {
-    const res = await fetch(snapshotPath());
+    const res = await fetch(url, { cache: "no-store" });
     if (!res.ok) throw new Error("ไม่พบไฟล์ราคา official-board.json");
     return res.json() as Promise<OfficialBoard>;
   }
@@ -21,7 +22,7 @@ async function loadSnapshot(): Promise<OfficialBoard> {
     return JSON.parse(readFileSync(file, "utf8")) as OfficialBoard;
   }
 
-  const res = await fetch(snapshotPath());
+  const res = await fetch(url, { cache: "no-store" });
   if (!res.ok) throw new Error("ไม่พบไฟล์ราคา official-board.json");
   return res.json() as Promise<OfficialBoard>;
 }

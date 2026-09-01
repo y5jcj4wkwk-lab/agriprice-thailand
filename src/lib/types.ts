@@ -54,6 +54,7 @@ export type DailySeriesPoint = {
 
 export type OfficialMeta = {
   asOf: string;
+  scrapedAt?: string;
   live: boolean;
   sources: string[];
   notes: string[];

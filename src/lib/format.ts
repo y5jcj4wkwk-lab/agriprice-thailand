@@ -51,6 +51,24 @@ export function formatDateShort(iso: string): string {
   });
 }
 
+export function formatTimeBangkok(iso: string): string {
+  return new Date(iso).toLocaleTimeString("th-TH", {
+    timeZone: BANGKOK,
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  });
+}
+
+export function bangkokToday(): string {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: BANGKOK,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date());
+}
+
 export function formatDateChart(iso: string): string {
   return formatDateThai(iso, {
     day: "numeric",

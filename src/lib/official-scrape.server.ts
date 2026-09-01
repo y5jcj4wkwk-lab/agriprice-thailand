@@ -2,7 +2,7 @@ import type { Commodity, MarketPrice, MarketSource, OfficialBoard } from "./type
 
 const UA = "AgriPriceThailand/1.0 (+https://grok.me)";
 
-async function fetchText(url: string, timeoutMs = 10000): Promise<string | null> {
+async function fetchText(url: string, timeoutMs = 15000): Promise<string | null> {
   try {
     const res = await fetch(url, {
       headers: {
@@ -53,6 +53,34 @@ const TH_MONTHS: Record<string, string> = {
   พฤศจิกายน: "11",
   ธันวาคม: "12",
 };
+
+function bangkokYearMonth(offsetMonths = 0): { year: string; month: string } {
+  const parts = Object.fromEntries(
+    new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Asia/Bangkok",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    })
+      .formatToParts(new Date())
+      .map((p) => [p.type, p.value]),
+  );
+  const shifted = new Date(Date.UTC(Number(parts.year), Number(parts.month) - 1 + offsetMonths, 1));
+  return {
+    year: String(shifted.getUTCFullYear()),
+    month: String(shifted.getUTCMonth() + 1).padStart(2, "0"),
+  };
+}
+
+async function fetchRubberHtml(): Promise<string | null> {
+  const months = [0, -1].map((offset) => {
+    const { year, month } = bangkokYearMonth(offset);
+    return `https://www.thainr.com/th/?detail=pr-local&selectMonth=${month}&selectY=${year}`;
+  });
+  const pages = await Promise.all(months.map((url) => fetchText(url)));
+  const joined = pages.filter(Boolean).join("\n");
+  return joined.length > 0 ? joined : null;
+}
 
 function parseThaiDate(text: string): string | null {
   const m = text.match(
@@ -525,7 +553,7 @@ export async function scrapeOfficialBoard(): Promise<OfficialBoard> {
 
   const [riceHtml, rubberHtml, cornListHtml, palmHtml, cassavaHtml] = await Promise.all([
     fetchText("http://www.thairiceexporters.or.th/price.htm"),
-    fetchText("https://www.thainr.com/th/?detail=pr-local"),
+    fetchRubberHtml(),
     fetchText(
       "https://www.thaimaizeandproduce.org/index.php?option=com_content&view=category&id=14&Itemid=284",
     ),
@@ -658,6 +686,7 @@ export async function scrapeOfficialBoard(): Promise<OfficialBoard> {
   const board: OfficialBoard = {
     meta: {
       asOf,
+      scrapedAt: new Date().toISOString(),
       live,
       sources: [...used],
       notes,

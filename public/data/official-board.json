@@ -1,6 +1,7 @@
 {
   "meta": {
-    "asOf": "2026-08-31",
+    "asOf": "2026-09-01",
+    "scrapedAt": "2026-09-01T03:39:13.943Z",
     "live": true,
     "sources": [
       "สมาคมผู้ส่งออกข้าวไทย",
@@ -11,7 +12,6 @@
     ],
     "notes": [
       "ข้าวเป็นราคาข้าวสารส่งออก FOB กรุงเทพ (ดอลลาร์/ตัน × อัตราขายบาท ธปท.) ไม่ใช่ราคาข้าวเปลือกที่นา",
-      "ยาง: ใช้ราคาตลาดท้องถิ่นล่าสุดที่ตรวจสอบได้ หากหน้าเว็บสมาคมไม่ตอบ",
       "น้ำยางอ้างอิงคอลัมน์น้ำยางของสมาคมยางพาราไทย (* สมาคมน้ำยางข้นไทย)",
       "ผลปาล์มเป็นราคารับซื้อทะลายสดอ้างอิง สศก. ไม่ใช่ราคาน้ำมันปาล์มดิบ"
     ]
@@ -370,10 +370,10 @@
       "id": "px-16",
       "commodity_id": "cmd-rubber-rss3",
       "source_id": "src-songkhla",
-      "price_date": "2026-08-24",
-      "min_price": 81,
-      "max_price": 81,
-      "avg_price": 81,
+      "price_date": "2026-08-03",
+      "min_price": 81.5,
+      "max_price": 81.5,
+      "avg_price": 81.5,
       "unit": "บาท/กก.",
       "status": "official"
     },
@@ -381,29 +381,7 @@
       "id": "px-17",
       "commodity_id": "cmd-rubber-rss3",
       "source_id": "src-surat",
-      "price_date": "2026-08-24",
-      "min_price": 82.5,
-      "max_price": 82.5,
-      "avg_price": 82.5,
-      "unit": "บาท/กก.",
-      "status": "official"
-    },
-    {
-      "id": "px-18",
-      "commodity_id": "cmd-rubber-rss3",
-      "source_id": "src-trang",
-      "price_date": "2026-08-24",
-      "min_price": 82,
-      "max_price": 82,
-      "avg_price": 82,
-      "unit": "บาท/กก.",
-      "status": "official"
-    },
-    {
-      "id": "px-19",
-      "commodity_id": "cmd-rubber-rss3",
-      "source_id": "src-phuket",
-      "price_date": "2026-08-24",
+      "price_date": "2026-08-03",
       "min_price": 83,
       "max_price": 83,
       "avg_price": 83,
@@ -411,13 +389,35 @@
       "status": "official"
     },
     {
+      "id": "px-18",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-08-03",
+      "min_price": 83,
+      "max_price": 83,
+      "avg_price": 83,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-19",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-03",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
       "id": "px-20",
       "commodity_id": "cmd-rubber-latex",
       "source_id": "src-songkhla",
-      "price_date": "2026-08-24",
-      "min_price": 74.5,
-      "max_price": 74.5,
-      "avg_price": 74.5,
+      "price_date": "2026-08-03",
+      "min_price": 73,
+      "max_price": 73,
+      "avg_price": 73,
       "unit": "บาท/กก.",
       "status": "official"
     },
@@ -425,7 +425,7 @@
       "id": "px-21",
       "commodity_id": "cmd-rubber-rss3",
       "source_id": "src-songkhla",
-      "price_date": "2026-08-25",
+      "price_date": "2026-08-04",
       "min_price": 82,
       "max_price": 82,
       "avg_price": 82,
@@ -436,7 +436,7 @@
       "id": "px-22",
       "commodity_id": "cmd-rubber-rss3",
       "source_id": "src-surat",
-      "price_date": "2026-08-25",
+      "price_date": "2026-08-04",
       "min_price": 83,
       "max_price": 83,
       "avg_price": 83,
@@ -447,18 +447,7 @@
       "id": "px-23",
       "commodity_id": "cmd-rubber-rss3",
       "source_id": "src-trang",
-      "price_date": "2026-08-25",
-      "min_price": 82,
-      "max_price": 82,
-      "avg_price": 82,
-      "unit": "บาท/กก.",
-      "status": "official"
-    },
-    {
-      "id": "px-24",
-      "commodity_id": "cmd-rubber-rss3",
-      "source_id": "src-phuket",
-      "price_date": "2026-08-25",
+      "price_date": "2026-08-04",
       "min_price": 83,
       "max_price": 83,
       "avg_price": 83,
@@ -466,13 +455,24 @@
       "status": "official"
     },
     {
+      "id": "px-24",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-04",
+      "min_price": 82.5,
+      "max_price": 82.5,
+      "avg_price": 82.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
       "id": "px-25",
       "commodity_id": "cmd-rubber-latex",
       "source_id": "src-songkhla",
-      "price_date": "2026-08-25",
-      "min_price": 75.6,
-      "max_price": 75.6,
-      "avg_price": 75.6,
+      "price_date": "2026-08-04",
+      "min_price": 73,
+      "max_price": 73,
+      "avg_price": 73,
       "unit": "บาท/กก.",
       "status": "official"
     },
@@ -480,7 +480,7 @@
       "id": "px-26",
       "commodity_id": "cmd-rubber-rss3",
       "source_id": "src-songkhla",
-      "price_date": "2026-08-26",
+      "price_date": "2026-08-05",
       "min_price": 82,
       "max_price": 82,
       "avg_price": 82,
@@ -491,10 +491,10 @@
       "id": "px-27",
       "commodity_id": "cmd-rubber-rss3",
       "source_id": "src-surat",
-      "price_date": "2026-08-26",
-      "min_price": 82.5,
-      "max_price": 82.5,
-      "avg_price": 82.5,
+      "price_date": "2026-08-05",
+      "min_price": 83,
+      "max_price": 83,
+      "avg_price": 83,
       "unit": "บาท/กก.",
       "status": "official"
     },
@@ -502,7 +502,7 @@
       "id": "px-28",
       "commodity_id": "cmd-rubber-rss3",
       "source_id": "src-trang",
-      "price_date": "2026-08-26",
+      "price_date": "2026-08-05",
       "min_price": 82,
       "max_price": 82,
       "avg_price": 82,
@@ -513,10 +513,10 @@
       "id": "px-29",
       "commodity_id": "cmd-rubber-rss3",
       "source_id": "src-phuket",
-      "price_date": "2026-08-26",
-      "min_price": 82.5,
-      "max_price": 82.5,
-      "avg_price": 82.5,
+      "price_date": "2026-08-05",
+      "min_price": 83,
+      "max_price": 83,
+      "avg_price": 83,
       "unit": "บาท/กก.",
       "status": "official"
     },
@@ -524,10 +524,10 @@
       "id": "px-30",
       "commodity_id": "cmd-rubber-latex",
       "source_id": "src-songkhla",
-      "price_date": "2026-08-26",
-      "min_price": 76,
-      "max_price": 76,
-      "avg_price": 76,
+      "price_date": "2026-08-05",
+      "min_price": 73,
+      "max_price": 73,
+      "avg_price": 73,
       "unit": "บาท/กก.",
       "status": "official"
     },
@@ -535,7 +535,7 @@
       "id": "px-31",
       "commodity_id": "cmd-rubber-rss3",
       "source_id": "src-songkhla",
-      "price_date": "2026-08-27",
+      "price_date": "2026-08-06",
       "min_price": 82,
       "max_price": 82,
       "avg_price": 82,
@@ -546,10 +546,10 @@
       "id": "px-32",
       "commodity_id": "cmd-rubber-rss3",
       "source_id": "src-surat",
-      "price_date": "2026-08-27",
-      "min_price": 82,
-      "max_price": 82,
-      "avg_price": 82,
+      "price_date": "2026-08-06",
+      "min_price": 83.5,
+      "max_price": 83.5,
+      "avg_price": 83.5,
       "unit": "บาท/กก.",
       "status": "official"
     },
@@ -557,7 +557,7 @@
       "id": "px-33",
       "commodity_id": "cmd-rubber-rss3",
       "source_id": "src-trang",
-      "price_date": "2026-08-27",
+      "price_date": "2026-08-06",
       "min_price": 82,
       "max_price": 82,
       "avg_price": 82,
@@ -568,10 +568,10 @@
       "id": "px-34",
       "commodity_id": "cmd-rubber-rss3",
       "source_id": "src-phuket",
-      "price_date": "2026-08-27",
-      "min_price": 82,
-      "max_price": 82,
-      "avg_price": 82,
+      "price_date": "2026-08-06",
+      "min_price": 83,
+      "max_price": 83,
+      "avg_price": 83,
       "unit": "บาท/กก.",
       "status": "official"
     },
@@ -579,10 +579,10 @@
       "id": "px-35",
       "commodity_id": "cmd-rubber-latex",
       "source_id": "src-songkhla",
-      "price_date": "2026-08-27",
-      "min_price": 76.8,
-      "max_price": 76.8,
-      "avg_price": 76.8,
+      "price_date": "2026-08-06",
+      "min_price": 73,
+      "max_price": 73,
+      "avg_price": 73,
       "unit": "บาท/กก.",
       "status": "official"
     },
@@ -590,18 +590,7 @@
       "id": "px-36",
       "commodity_id": "cmd-rubber-rss3",
       "source_id": "src-songkhla",
-      "price_date": "2026-08-28",
-      "min_price": 81,
-      "max_price": 81,
-      "avg_price": 81,
-      "unit": "บาท/กก.",
-      "status": "official"
-    },
-    {
-      "id": "px-37",
-      "commodity_id": "cmd-rubber-rss3",
-      "source_id": "src-surat",
-      "price_date": "2026-08-28",
+      "price_date": "2026-08-07",
       "min_price": 82,
       "max_price": 82,
       "avg_price": 82,
@@ -609,10 +598,21 @@
       "status": "official"
     },
     {
+      "id": "px-37",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-08-07",
+      "min_price": 83.5,
+      "max_price": 83.5,
+      "avg_price": 83.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
       "id": "px-38",
       "commodity_id": "cmd-rubber-rss3",
       "source_id": "src-trang",
-      "price_date": "2026-08-28",
+      "price_date": "2026-08-07",
       "min_price": 82,
       "max_price": 82,
       "avg_price": 82,
@@ -623,6 +623,754 @@
       "id": "px-39",
       "commodity_id": "cmd-rubber-rss3",
       "source_id": "src-phuket",
+      "price_date": "2026-08-07",
+      "min_price": 83.5,
+      "max_price": 83.5,
+      "avg_price": 83.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-40",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-07",
+      "min_price": 73,
+      "max_price": 73,
+      "avg_price": 73,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-41",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-10",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-42",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-08-10",
+      "min_price": 83.5,
+      "max_price": 83.5,
+      "avg_price": 83.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-43",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-08-10",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-44",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-10",
+      "min_price": 83.5,
+      "max_price": 83.5,
+      "avg_price": 83.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-45",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-10",
+      "min_price": 73,
+      "max_price": 73,
+      "avg_price": 73,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-46",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-11",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-47",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-08-11",
+      "min_price": 83.5,
+      "max_price": 83.5,
+      "avg_price": 83.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-48",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-08-11",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-49",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-11",
+      "min_price": 83.5,
+      "max_price": 83.5,
+      "avg_price": 83.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-50",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-11",
+      "min_price": 72.6,
+      "max_price": 72.6,
+      "avg_price": 72.6,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-51",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-13",
+      "min_price": 81,
+      "max_price": 81,
+      "avg_price": 81,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-52",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-08-13",
+      "min_price": 83.5,
+      "max_price": 83.5,
+      "avg_price": 83.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-53",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-08-13",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-54",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-13",
+      "min_price": 83,
+      "max_price": 83,
+      "avg_price": 83,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-55",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-13",
+      "min_price": 72.4,
+      "max_price": 72.4,
+      "avg_price": 72.4,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-56",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-14",
+      "min_price": 81,
+      "max_price": 81,
+      "avg_price": 81,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-57",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-08-14",
+      "min_price": 82.5,
+      "max_price": 82.5,
+      "avg_price": 82.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-58",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-08-14",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-59",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-14",
+      "min_price": 82.5,
+      "max_price": 82.5,
+      "avg_price": 82.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-60",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-14",
+      "min_price": 72.4,
+      "max_price": 72.4,
+      "avg_price": 72.4,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-61",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-17",
+      "min_price": 80,
+      "max_price": 80,
+      "avg_price": 80,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-62",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-08-17",
+      "min_price": 82.5,
+      "max_price": 82.5,
+      "avg_price": 82.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-63",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-08-17",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-64",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-17",
+      "min_price": 82.5,
+      "max_price": 82.5,
+      "avg_price": 82.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-65",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-17",
+      "min_price": 72.4,
+      "max_price": 72.4,
+      "avg_price": 72.4,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-66",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-18",
+      "min_price": 80,
+      "max_price": 80,
+      "avg_price": 80,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-67",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-08-18",
+      "min_price": 82.5,
+      "max_price": 82.5,
+      "avg_price": 82.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-68",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-08-18",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-69",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-18",
+      "min_price": 82.5,
+      "max_price": 82.5,
+      "avg_price": 82.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-70",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-18",
+      "min_price": 73,
+      "max_price": 73,
+      "avg_price": 73,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-71",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-19",
+      "min_price": 80,
+      "max_price": 80,
+      "avg_price": 80,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-72",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-08-19",
+      "min_price": 82.5,
+      "max_price": 82.5,
+      "avg_price": 82.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-73",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-08-19",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-74",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-19",
+      "min_price": 82.5,
+      "max_price": 82.5,
+      "avg_price": 82.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-75",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-19",
+      "min_price": 73.3,
+      "max_price": 73.3,
+      "avg_price": 73.3,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-76",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-20",
+      "min_price": 81,
+      "max_price": 81,
+      "avg_price": 81,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-77",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-08-20",
+      "min_price": 82.5,
+      "max_price": 82.5,
+      "avg_price": 82.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-78",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-08-20",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-79",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-20",
+      "min_price": 82.5,
+      "max_price": 82.5,
+      "avg_price": 82.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-80",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-20",
+      "min_price": 73.7,
+      "max_price": 73.7,
+      "avg_price": 73.7,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-81",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-21",
+      "min_price": 81,
+      "max_price": 81,
+      "avg_price": 81,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-82",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-08-21",
+      "min_price": 82.5,
+      "max_price": 82.5,
+      "avg_price": 82.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-83",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-08-21",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-84",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-21",
+      "min_price": 83,
+      "max_price": 83,
+      "avg_price": 83,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-85",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-21",
+      "min_price": 74,
+      "max_price": 74,
+      "avg_price": 74,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-86",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-24",
+      "min_price": 81,
+      "max_price": 81,
+      "avg_price": 81,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-87",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-08-24",
+      "min_price": 82.5,
+      "max_price": 82.5,
+      "avg_price": 82.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-88",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-08-24",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-89",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-24",
+      "min_price": 83,
+      "max_price": 83,
+      "avg_price": 83,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-90",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-24",
+      "min_price": 74.5,
+      "max_price": 74.5,
+      "avg_price": 74.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-91",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-25",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-92",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-08-25",
+      "min_price": 83,
+      "max_price": 83,
+      "avg_price": 83,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-93",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-08-25",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-94",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-25",
+      "min_price": 83,
+      "max_price": 83,
+      "avg_price": 83,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-95",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-25",
+      "min_price": 75.6,
+      "max_price": 75.6,
+      "avg_price": 75.6,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-96",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-26",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-97",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-08-26",
+      "min_price": 82.5,
+      "max_price": 82.5,
+      "avg_price": 82.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-98",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-08-26",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-99",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-26",
+      "min_price": 82.5,
+      "max_price": 82.5,
+      "avg_price": 82.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-100",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-26",
+      "min_price": 76,
+      "max_price": 76,
+      "avg_price": 76,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-101",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-27",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-102",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-08-27",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-103",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-08-27",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-104",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-27",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-105",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-27",
+      "min_price": 76.8,
+      "max_price": 76.8,
+      "avg_price": 76.8,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-106",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-28",
+      "min_price": 81,
+      "max_price": 81,
+      "avg_price": 81,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-107",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
       "price_date": "2026-08-28",
       "min_price": 82,
       "max_price": 82,
@@ -631,7 +1379,29 @@
       "status": "official"
     },
     {
-      "id": "px-40",
+      "id": "px-108",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-08-28",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-109",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-28",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-110",
       "commodity_id": "cmd-rubber-latex",
       "source_id": "src-songkhla",
       "price_date": "2026-08-28",
@@ -642,7 +1412,117 @@
       "status": "official"
     },
     {
-      "id": "px-41",
+      "id": "px-111",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-31",
+      "min_price": 81,
+      "max_price": 81,
+      "avg_price": 81,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-112",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-08-31",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-113",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-08-31",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-114",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-08-31",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-115",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
+      "price_date": "2026-08-31",
+      "min_price": 77.4,
+      "max_price": 77.4,
+      "avg_price": 77.4,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-116",
+      "commodity_id": "cmd-corn-feed",
+      "source_id": "src-bangna",
+      "price_date": "2026-09-01",
+      "min_price": 9.8,
+      "max_price": 9.8,
+      "avg_price": 9.8,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-117",
+      "commodity_id": "cmd-corn-feed",
+      "source_id": "src-sriracha",
+      "price_date": "2026-09-01",
+      "min_price": 10,
+      "max_price": 10,
+      "avg_price": 10,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-118",
+      "commodity_id": "cmd-corn-feed",
+      "source_id": "src-ratchaburi",
+      "price_date": "2026-09-01",
+      "min_price": 9.8,
+      "max_price": 9.8,
+      "avg_price": 9.8,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-119",
+      "commodity_id": "cmd-corn-feed",
+      "source_id": "src-tharuea",
+      "price_date": "2026-09-01",
+      "min_price": 9.6,
+      "max_price": 9.6,
+      "avg_price": 9.6,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-120",
+      "commodity_id": "cmd-corn-feed",
+      "source_id": "src-korat",
+      "price_date": "2026-09-01",
+      "min_price": 9.75,
+      "max_price": 9.75,
+      "avg_price": 9.75,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-121",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-bangna",
       "price_date": "2026-08-31",
@@ -653,7 +1533,7 @@
       "status": "official"
     },
     {
-      "id": "px-42",
+      "id": "px-122",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-sriracha",
       "price_date": "2026-08-31",
@@ -664,7 +1544,7 @@
       "status": "official"
     },
     {
-      "id": "px-43",
+      "id": "px-123",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-ratchaburi",
       "price_date": "2026-08-31",
@@ -675,7 +1555,7 @@
       "status": "official"
     },
     {
-      "id": "px-44",
+      "id": "px-124",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-tharuea",
       "price_date": "2026-08-31",
@@ -686,7 +1566,7 @@
       "status": "official"
     },
     {
-      "id": "px-45",
+      "id": "px-125",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-korat",
       "price_date": "2026-08-31",
@@ -697,7 +1577,7 @@
       "status": "official"
     },
     {
-      "id": "px-46",
+      "id": "px-126",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-bangna",
       "price_date": "2026-08-28",
@@ -708,7 +1588,7 @@
       "status": "official"
     },
     {
-      "id": "px-47",
+      "id": "px-127",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-sriracha",
       "price_date": "2026-08-28",
@@ -719,7 +1599,7 @@
       "status": "official"
     },
     {
-      "id": "px-48",
+      "id": "px-128",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-ratchaburi",
       "price_date": "2026-08-28",
@@ -730,7 +1610,7 @@
       "status": "official"
     },
     {
-      "id": "px-49",
+      "id": "px-129",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-tharuea",
       "price_date": "2026-08-28",
@@ -741,7 +1621,7 @@
       "status": "official"
     },
     {
-      "id": "px-50",
+      "id": "px-130",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-korat",
       "price_date": "2026-08-28",
@@ -752,7 +1632,7 @@
       "status": "official"
     },
     {
-      "id": "px-51",
+      "id": "px-131",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-bangna",
       "price_date": "2026-08-27",
@@ -763,7 +1643,7 @@
       "status": "official"
     },
     {
-      "id": "px-52",
+      "id": "px-132",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-sriracha",
       "price_date": "2026-08-27",
@@ -774,7 +1654,7 @@
       "status": "official"
     },
     {
-      "id": "px-53",
+      "id": "px-133",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-ratchaburi",
       "price_date": "2026-08-27",
@@ -785,7 +1665,7 @@
       "status": "official"
     },
     {
-      "id": "px-54",
+      "id": "px-134",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-tharuea",
       "price_date": "2026-08-27",
@@ -796,7 +1676,7 @@
       "status": "official"
     },
     {
-      "id": "px-55",
+      "id": "px-135",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-korat",
       "price_date": "2026-08-27",
@@ -807,62 +1687,7 @@
       "status": "official"
     },
     {
-      "id": "px-56",
-      "commodity_id": "cmd-corn-feed",
-      "source_id": "src-bangna",
-      "price_date": "2026-08-26",
-      "min_price": 9.9,
-      "max_price": 9.9,
-      "avg_price": 9.9,
-      "unit": "บาท/กก.",
-      "status": "official"
-    },
-    {
-      "id": "px-57",
-      "commodity_id": "cmd-corn-feed",
-      "source_id": "src-sriracha",
-      "price_date": "2026-08-26",
-      "min_price": 10,
-      "max_price": 10,
-      "avg_price": 10,
-      "unit": "บาท/กก.",
-      "status": "official"
-    },
-    {
-      "id": "px-58",
-      "commodity_id": "cmd-corn-feed",
-      "source_id": "src-ratchaburi",
-      "price_date": "2026-08-26",
-      "min_price": 9.8,
-      "max_price": 9.8,
-      "avg_price": 9.8,
-      "unit": "บาท/กก.",
-      "status": "official"
-    },
-    {
-      "id": "px-59",
-      "commodity_id": "cmd-corn-feed",
-      "source_id": "src-tharuea",
-      "price_date": "2026-08-26",
-      "min_price": 9.7,
-      "max_price": 9.7,
-      "avg_price": 9.7,
-      "unit": "บาท/กก.",
-      "status": "official"
-    },
-    {
-      "id": "px-60",
-      "commodity_id": "cmd-corn-feed",
-      "source_id": "src-korat",
-      "price_date": "2026-08-26",
-      "min_price": 9.85,
-      "max_price": 9.85,
-      "avg_price": 9.85,
-      "unit": "บาท/กก.",
-      "status": "official"
-    },
-    {
-      "id": "px-61",
+      "id": "px-136",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-03",
@@ -873,7 +1698,7 @@
       "status": "official"
     },
     {
-      "id": "px-62",
+      "id": "px-137",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-04",
@@ -884,7 +1709,7 @@
       "status": "official"
     },
     {
-      "id": "px-63",
+      "id": "px-138",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-05",
@@ -895,7 +1720,7 @@
       "status": "official"
     },
     {
-      "id": "px-64",
+      "id": "px-139",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-06",
@@ -906,7 +1731,7 @@
       "status": "official"
     },
     {
-      "id": "px-65",
+      "id": "px-140",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-07",
@@ -917,7 +1742,7 @@
       "status": "official"
     },
     {
-      "id": "px-66",
+      "id": "px-141",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-10",
@@ -928,7 +1753,7 @@
       "status": "official"
     },
     {
-      "id": "px-67",
+      "id": "px-142",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-11",
@@ -939,7 +1764,7 @@
       "status": "official"
     },
     {
-      "id": "px-68",
+      "id": "px-143",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-13",
@@ -950,7 +1775,7 @@
       "status": "official"
     },
     {
-      "id": "px-69",
+      "id": "px-144",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-14",
@@ -961,7 +1786,7 @@
       "status": "official"
     },
     {
-      "id": "px-70",
+      "id": "px-145",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-17",
@@ -972,7 +1797,7 @@
       "status": "official"
     },
     {
-      "id": "px-71",
+      "id": "px-146",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-18",
@@ -983,7 +1808,7 @@
       "status": "official"
     },
     {
-      "id": "px-72",
+      "id": "px-147",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-19",
@@ -994,7 +1819,7 @@
       "status": "official"
     },
     {
-      "id": "px-73",
+      "id": "px-148",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-20",
@@ -1005,7 +1830,7 @@
       "status": "official"
     },
     {
-      "id": "px-74",
+      "id": "px-149",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-21",
@@ -1016,7 +1841,7 @@
       "status": "official"
     },
     {
-      "id": "px-75",
+      "id": "px-150",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-24",
@@ -1027,7 +1852,7 @@
       "status": "official"
     },
     {
-      "id": "px-76",
+      "id": "px-151",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-25",
@@ -1038,7 +1863,7 @@
       "status": "official"
     },
     {
-      "id": "px-77",
+      "id": "px-152",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-26",
@@ -1049,7 +1874,7 @@
       "status": "official"
     },
     {
-      "id": "px-78",
+      "id": "px-153",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-27",
@@ -1060,7 +1885,7 @@
       "status": "official"
     },
     {
-      "id": "px-79",
+      "id": "px-154",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-28",
@@ -1071,7 +1896,7 @@
       "status": "official"
     },
     {
-      "id": "px-80",
+      "id": "px-155",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-31",
@@ -1082,7 +1907,7 @@
       "status": "official"
     },
     {
-      "id": "px-81",
+      "id": "px-156",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-08-24",
@@ -1093,7 +1918,7 @@
       "status": "official"
     },
     {
-      "id": "px-82",
+      "id": "px-157",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-08-26",
@@ -1104,7 +1929,7 @@
       "status": "official"
     },
     {
-      "id": "px-83",
+      "id": "px-158",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-08-28",
@@ -1115,7 +1940,7 @@
       "status": "official"
     },
     {
-      "id": "px-84",
+      "id": "px-159",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-08-31",

@@ -63,6 +63,12 @@ function rewriteHtml(file) {
   if (cssFile) {
     html = html.replace(/assets\/styles-[^"']+\.css/g, `assets/${cssFile}`);
   }
+  if (!html.includes("Cache-Control")) {
+    html = html.replace(
+      "<head>",
+      '<head>\n    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />',
+    );
+  }
   writeFileSync(file, html);
   return true;
 }
