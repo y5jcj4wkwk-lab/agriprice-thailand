@@ -1,7 +1,7 @@
 {
   "meta": {
     "asOf": "2026-09-02",
-    "scrapedAt": "2026-09-02T09:03:59.569Z",
+    "scrapedAt": "2026-09-03T00:43:50.517Z",
     "live": true,
     "sources": [
       "สมาคมผู้ส่งออกข้าวไทย",
@@ -205,10 +205,10 @@
       "id": "px-1",
       "commodity_id": "cmd-rice-hommali",
       "source_id": "src-trea",
-      "price_date": "2026-07-22",
-      "min_price": 40156.66,
-      "max_price": 40156.66,
-      "avg_price": 40156.66,
+      "price_date": "2026-07-30",
+      "min_price": 40427.99,
+      "max_price": 40427.99,
+      "avg_price": 40427.99,
       "unit": "บาท/ตัน",
       "status": "official"
     },
@@ -216,10 +216,10 @@
       "id": "px-4",
       "commodity_id": "cmd-rice-hommali",
       "source_id": "src-trea",
-      "price_date": "2026-07-30",
-      "min_price": 40194.12,
-      "max_price": 40194.12,
-      "avg_price": 40194.12,
+      "price_date": "2026-08-13",
+      "min_price": 40295.28,
+      "max_price": 40295.28,
+      "avg_price": 40295.28,
       "unit": "บาท/ตัน",
       "status": "official"
     },
@@ -227,10 +227,10 @@
       "id": "px-7",
       "commodity_id": "cmd-rice-hommali",
       "source_id": "src-trea",
-      "price_date": "2026-08-13",
-      "min_price": 39751.32,
-      "max_price": 39751.32,
-      "avg_price": 39751.32,
+      "price_date": "2026-08-19",
+      "min_price": 39152.55,
+      "max_price": 39152.55,
+      "avg_price": 39152.55,
       "unit": "บาท/ตัน",
       "status": "official"
     },
@@ -238,10 +238,10 @@
       "id": "px-10",
       "commodity_id": "cmd-rice-hommali",
       "source_id": "src-trea",
-      "price_date": "2026-08-19",
-      "min_price": 39180.56,
-      "max_price": 39180.56,
-      "avg_price": 39180.56,
+      "price_date": "2026-08-26",
+      "min_price": 39147.28,
+      "max_price": 39147.28,
+      "avg_price": 39147.28,
       "unit": "บาท/ตัน",
       "status": "official"
     },
@@ -249,10 +249,10 @@
       "id": "px-13",
       "commodity_id": "cmd-rice-hommali",
       "source_id": "src-trea",
-      "price_date": "2026-08-26",
-      "min_price": 38659.12,
-      "max_price": 38659.12,
-      "avg_price": 38659.12,
+      "price_date": "2026-09-02",
+      "min_price": 37968.78,
+      "max_price": 37968.78,
+      "avg_price": 37968.78,
       "unit": "บาท/ตัน",
       "status": "official"
     },
@@ -260,10 +260,10 @@
       "id": "px-2",
       "commodity_id": "cmd-rice-white",
       "source_id": "src-trea",
-      "price_date": "2026-07-22",
-      "min_price": 15669.24,
-      "max_price": 15669.24,
-      "avg_price": 15669.24,
+      "price_date": "2026-07-30",
+      "min_price": 15770.99,
+      "max_price": 15770.99,
+      "avg_price": 15770.99,
       "unit": "บาท/ตัน",
       "status": "official"
     },
@@ -271,10 +271,10 @@
       "id": "px-5",
       "commodity_id": "cmd-rice-white",
       "source_id": "src-trea",
-      "price_date": "2026-07-30",
-      "min_price": 15679.75,
-      "max_price": 15679.75,
-      "avg_price": 15679.75,
+      "price_date": "2026-08-13",
+      "min_price": 15713.47,
+      "max_price": 15713.47,
+      "avg_price": 15713.47,
       "unit": "บาท/ตัน",
       "status": "official"
     },
@@ -282,10 +282,10 @@
       "id": "px-8",
       "commodity_id": "cmd-rice-white",
       "source_id": "src-trea",
-      "price_date": "2026-08-13",
-      "min_price": 15501.35,
-      "max_price": 15501.35,
-      "avg_price": 15501.35,
+      "price_date": "2026-08-19",
+      "min_price": 15667.67,
+      "max_price": 15667.67,
+      "avg_price": 15667.67,
       "unit": "บาท/ตัน",
       "status": "official"
     },
@@ -293,10 +293,10 @@
       "id": "px-11",
       "commodity_id": "cmd-rice-white",
       "source_id": "src-trea",
-      "price_date": "2026-08-19",
-      "min_price": 15678.88,
-      "max_price": 15678.88,
-      "avg_price": 15678.88,
+      "price_date": "2026-08-26",
+      "min_price": 15878.61,
+      "max_price": 15878.61,
+      "avg_price": 15878.61,
       "unit": "บาท/ตัน",
       "status": "official"
     },
@@ -304,10 +304,10 @@
       "id": "px-14",
       "commodity_id": "cmd-rice-white",
       "source_id": "src-trea",
-      "price_date": "2026-08-26",
-      "min_price": 15680.61,
-      "max_price": 15680.61,
-      "avg_price": 15680.61,
+      "price_date": "2026-09-02",
+      "min_price": 15877.85,
+      "max_price": 15877.85,
+      "avg_price": 15877.85,
       "unit": "บาท/ตัน",
       "status": "official"
     },
@@ -315,10 +315,10 @@
       "id": "px-3",
       "commodity_id": "cmd-rice-sticky",
       "source_id": "src-trea",
-      "price_date": "2026-07-22",
-      "min_price": 26895.47,
-      "max_price": 26895.47,
-      "avg_price": 26895.47,
+      "price_date": "2026-07-30",
+      "min_price": 27065.05,
+      "max_price": 27065.05,
+      "avg_price": 27065.05,
       "unit": "บาท/ตัน",
       "status": "official"
     },
@@ -326,10 +326,10 @@
       "id": "px-6",
       "commodity_id": "cmd-rice-sticky",
       "source_id": "src-trea",
-      "price_date": "2026-07-30",
-      "min_price": 26908.48,
-      "max_price": 26908.48,
-      "avg_price": 26908.48,
+      "price_date": "2026-08-13",
+      "min_price": 27313.12,
+      "max_price": 27313.12,
+      "avg_price": 27313.12,
       "unit": "บาท/ตัน",
       "status": "official"
     },
@@ -337,10 +337,10 @@
       "id": "px-9",
       "commodity_id": "cmd-rice-sticky",
       "source_id": "src-trea",
-      "price_date": "2026-08-13",
-      "min_price": 26944.41,
-      "max_price": 26944.41,
-      "avg_price": 26944.41,
+      "price_date": "2026-08-19",
+      "min_price": 27909.08,
+      "max_price": 27909.08,
+      "avg_price": 27909.08,
       "unit": "บาท/ตัน",
       "status": "official"
     },
@@ -348,10 +348,10 @@
       "id": "px-12",
       "commodity_id": "cmd-rice-sticky",
       "source_id": "src-trea",
-      "price_date": "2026-08-19",
-      "min_price": 27929.05,
-      "max_price": 27929.05,
-      "avg_price": 27929.05,
+      "price_date": "2026-08-26",
+      "min_price": 28261.94,
+      "max_price": 28261.94,
+      "avg_price": 28261.94,
       "unit": "บาท/ตัน",
       "status": "official"
     },
@@ -359,10 +359,10 @@
       "id": "px-15",
       "commodity_id": "cmd-rice-sticky",
       "source_id": "src-trea",
-      "price_date": "2026-08-26",
-      "min_price": 27909.52,
-      "max_price": 27909.52,
-      "avg_price": 27909.52,
+      "price_date": "2026-09-02",
+      "min_price": 27416.42,
+      "max_price": 27416.42,
+      "avg_price": 27416.42,
       "unit": "บาท/ตัน",
       "status": "official"
     },
@@ -1291,6 +1291,50 @@
       "status": "official"
     },
     {
+      "id": "px-121",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-09-02",
+      "min_price": 81,
+      "max_price": 81,
+      "avg_price": 81,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-122",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-09-02",
+      "min_price": 81.5,
+      "max_price": 81.5,
+      "avg_price": 81.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-123",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-09-02",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-124",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-09-02",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
       "id": "px-20",
       "commodity_id": "cmd-rubber-latex",
       "source_id": "src-songkhla",
@@ -1522,57 +1566,13 @@
       "status": "official"
     },
     {
-      "id": "px-121",
-      "commodity_id": "cmd-corn-feed",
-      "source_id": "src-bangna",
-      "price_date": "2026-09-02",
-      "min_price": 9.8,
-      "max_price": 9.8,
-      "avg_price": 9.8,
-      "unit": "บาท/กก.",
-      "status": "official"
-    },
-    {
-      "id": "px-122",
-      "commodity_id": "cmd-corn-feed",
-      "source_id": "src-sriracha",
-      "price_date": "2026-09-02",
-      "min_price": 10,
-      "max_price": 10,
-      "avg_price": 10,
-      "unit": "บาท/กก.",
-      "status": "official"
-    },
-    {
-      "id": "px-123",
-      "commodity_id": "cmd-corn-feed",
-      "source_id": "src-ratchaburi",
-      "price_date": "2026-09-02",
-      "min_price": 9.8,
-      "max_price": 9.8,
-      "avg_price": 9.8,
-      "unit": "บาท/กก.",
-      "status": "official"
-    },
-    {
-      "id": "px-124",
-      "commodity_id": "cmd-corn-feed",
-      "source_id": "src-tharuea",
-      "price_date": "2026-09-02",
-      "min_price": 9.6,
-      "max_price": 9.6,
-      "avg_price": 9.6,
-      "unit": "บาท/กก.",
-      "status": "official"
-    },
-    {
       "id": "px-125",
-      "commodity_id": "cmd-corn-feed",
-      "source_id": "src-korat",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
       "price_date": "2026-09-02",
-      "min_price": 9.75,
-      "max_price": 9.75,
-      "avg_price": 9.75,
+      "min_price": 77.7,
+      "max_price": 77.7,
+      "avg_price": 77.7,
       "unit": "บาท/กก.",
       "status": "official"
     },
@@ -1580,7 +1580,7 @@
       "id": "px-126",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-bangna",
-      "price_date": "2026-09-01",
+      "price_date": "2026-09-02",
       "min_price": 9.8,
       "max_price": 9.8,
       "avg_price": 9.8,
@@ -1591,7 +1591,7 @@
       "id": "px-127",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-sriracha",
-      "price_date": "2026-09-01",
+      "price_date": "2026-09-02",
       "min_price": 10,
       "max_price": 10,
       "avg_price": 10,
@@ -1602,7 +1602,7 @@
       "id": "px-128",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-ratchaburi",
-      "price_date": "2026-09-01",
+      "price_date": "2026-09-02",
       "min_price": 9.8,
       "max_price": 9.8,
       "avg_price": 9.8,
@@ -1613,7 +1613,7 @@
       "id": "px-129",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-tharuea",
-      "price_date": "2026-09-01",
+      "price_date": "2026-09-02",
       "min_price": 9.6,
       "max_price": 9.6,
       "avg_price": 9.6,
@@ -1624,7 +1624,7 @@
       "id": "px-130",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-korat",
-      "price_date": "2026-09-01",
+      "price_date": "2026-09-02",
       "min_price": 9.75,
       "max_price": 9.75,
       "avg_price": 9.75,
@@ -1635,10 +1635,10 @@
       "id": "px-131",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-bangna",
-      "price_date": "2026-08-31",
-      "min_price": 9.85,
-      "max_price": 9.85,
-      "avg_price": 9.85,
+      "price_date": "2026-09-01",
+      "min_price": 9.8,
+      "max_price": 9.8,
+      "avg_price": 9.8,
       "unit": "บาท/กก.",
       "status": "official"
     },
@@ -1646,7 +1646,7 @@
       "id": "px-132",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-sriracha",
-      "price_date": "2026-08-31",
+      "price_date": "2026-09-01",
       "min_price": 10,
       "max_price": 10,
       "avg_price": 10,
@@ -1657,7 +1657,7 @@
       "id": "px-133",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-ratchaburi",
-      "price_date": "2026-08-31",
+      "price_date": "2026-09-01",
       "min_price": 9.8,
       "max_price": 9.8,
       "avg_price": 9.8,
@@ -1668,7 +1668,7 @@
       "id": "px-134",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-tharuea",
-      "price_date": "2026-08-31",
+      "price_date": "2026-09-01",
       "min_price": 9.6,
       "max_price": 9.6,
       "avg_price": 9.6,
@@ -1679,10 +1679,10 @@
       "id": "px-135",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-korat",
-      "price_date": "2026-08-31",
-      "min_price": 9.8,
-      "max_price": 9.8,
-      "avg_price": 9.8,
+      "price_date": "2026-09-01",
+      "min_price": 9.75,
+      "max_price": 9.75,
+      "avg_price": 9.75,
       "unit": "บาท/กก.",
       "status": "official"
     },
@@ -1690,7 +1690,7 @@
       "id": "px-136",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-bangna",
-      "price_date": "2026-08-28",
+      "price_date": "2026-08-31",
       "min_price": 9.85,
       "max_price": 9.85,
       "avg_price": 9.85,
@@ -1701,7 +1701,7 @@
       "id": "px-137",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-sriracha",
-      "price_date": "2026-08-28",
+      "price_date": "2026-08-31",
       "min_price": 10,
       "max_price": 10,
       "avg_price": 10,
@@ -1712,7 +1712,7 @@
       "id": "px-138",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-ratchaburi",
-      "price_date": "2026-08-28",
+      "price_date": "2026-08-31",
       "min_price": 9.8,
       "max_price": 9.8,
       "avg_price": 9.8,
@@ -1723,6 +1723,61 @@
       "id": "px-139",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-tharuea",
+      "price_date": "2026-08-31",
+      "min_price": 9.6,
+      "max_price": 9.6,
+      "avg_price": 9.6,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-140",
+      "commodity_id": "cmd-corn-feed",
+      "source_id": "src-korat",
+      "price_date": "2026-08-31",
+      "min_price": 9.8,
+      "max_price": 9.8,
+      "avg_price": 9.8,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-141",
+      "commodity_id": "cmd-corn-feed",
+      "source_id": "src-bangna",
+      "price_date": "2026-08-28",
+      "min_price": 9.85,
+      "max_price": 9.85,
+      "avg_price": 9.85,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-142",
+      "commodity_id": "cmd-corn-feed",
+      "source_id": "src-sriracha",
+      "price_date": "2026-08-28",
+      "min_price": 10,
+      "max_price": 10,
+      "avg_price": 10,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-143",
+      "commodity_id": "cmd-corn-feed",
+      "source_id": "src-ratchaburi",
+      "price_date": "2026-08-28",
+      "min_price": 9.8,
+      "max_price": 9.8,
+      "avg_price": 9.8,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-144",
+      "commodity_id": "cmd-corn-feed",
+      "source_id": "src-tharuea",
       "price_date": "2026-08-28",
       "min_price": 9.7,
       "max_price": 9.7,
@@ -1731,7 +1786,7 @@
       "status": "official"
     },
     {
-      "id": "px-140",
+      "id": "px-145",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-korat",
       "price_date": "2026-08-28",
@@ -1742,7 +1797,7 @@
       "status": "official"
     },
     {
-      "id": "px-141",
+      "id": "px-146",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-04",
@@ -1753,7 +1808,7 @@
       "status": "official"
     },
     {
-      "id": "px-142",
+      "id": "px-147",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-05",
@@ -1764,7 +1819,7 @@
       "status": "official"
     },
     {
-      "id": "px-143",
+      "id": "px-148",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-06",
@@ -1775,7 +1830,7 @@
       "status": "official"
     },
     {
-      "id": "px-144",
+      "id": "px-149",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-07",
@@ -1786,7 +1841,7 @@
       "status": "official"
     },
     {
-      "id": "px-145",
+      "id": "px-150",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-10",
@@ -1797,7 +1852,7 @@
       "status": "official"
     },
     {
-      "id": "px-146",
+      "id": "px-151",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-11",
@@ -1808,7 +1863,7 @@
       "status": "official"
     },
     {
-      "id": "px-147",
+      "id": "px-152",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-13",
@@ -1819,7 +1874,7 @@
       "status": "official"
     },
     {
-      "id": "px-148",
+      "id": "px-153",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-14",
@@ -1830,7 +1885,7 @@
       "status": "official"
     },
     {
-      "id": "px-149",
+      "id": "px-154",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-17",
@@ -1841,7 +1896,7 @@
       "status": "official"
     },
     {
-      "id": "px-150",
+      "id": "px-155",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-18",
@@ -1852,7 +1907,7 @@
       "status": "official"
     },
     {
-      "id": "px-151",
+      "id": "px-156",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-19",
@@ -1863,7 +1918,7 @@
       "status": "official"
     },
     {
-      "id": "px-152",
+      "id": "px-157",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-20",
@@ -1874,7 +1929,7 @@
       "status": "official"
     },
     {
-      "id": "px-153",
+      "id": "px-158",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-21",
@@ -1885,7 +1940,7 @@
       "status": "official"
     },
     {
-      "id": "px-154",
+      "id": "px-159",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-24",
@@ -1896,7 +1951,7 @@
       "status": "official"
     },
     {
-      "id": "px-155",
+      "id": "px-160",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-25",
@@ -1907,7 +1962,7 @@
       "status": "official"
     },
     {
-      "id": "px-156",
+      "id": "px-161",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-26",
@@ -1918,7 +1973,7 @@
       "status": "official"
     },
     {
-      "id": "px-157",
+      "id": "px-162",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-27",
@@ -1929,7 +1984,7 @@
       "status": "official"
     },
     {
-      "id": "px-158",
+      "id": "px-163",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-28",
@@ -1940,7 +1995,7 @@
       "status": "official"
     },
     {
-      "id": "px-159",
+      "id": "px-164",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-08-31",
@@ -1951,7 +2006,7 @@
       "status": "official"
     },
     {
-      "id": "px-160",
+      "id": "px-165",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-09-01",
@@ -1962,7 +2017,7 @@
       "status": "official"
     },
     {
-      "id": "px-161",
+      "id": "px-166",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-09-02",
@@ -1973,7 +2028,7 @@
       "status": "official"
     },
     {
-      "id": "px-162",
+      "id": "px-167",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-08-26",
@@ -1984,7 +2039,7 @@
       "status": "official"
     },
     {
-      "id": "px-163",
+      "id": "px-168",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-08-28",
@@ -1995,7 +2050,7 @@
       "status": "official"
     },
     {
-      "id": "px-164",
+      "id": "px-169",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-08-31",
@@ -2006,7 +2061,7 @@
       "status": "official"
     },
     {
-      "id": "px-165",
+      "id": "px-170",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-09-02",
