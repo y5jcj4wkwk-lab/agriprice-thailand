@@ -1,7 +1,7 @@
 {
   "meta": {
     "asOf": "2026-09-07",
-    "scrapedAt": "2026-09-07T04:02:04.167Z",
+    "scrapedAt": "2026-09-07T07:16:17.317Z",
     "live": true,
     "sources": [
       "สมาคมผู้ส่งออกข้าวไทย",
@@ -2143,7 +2143,7 @@
       "id": "px-82",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
-      "price_date": "2026-08-28",
+      "price_date": "2026-08-31",
       "min_price": 3.75,
       "max_price": 4.8,
       "avg_price": 4.38,
@@ -2154,17 +2154,6 @@
       "id": "px-83",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
-      "price_date": "2026-08-31",
-      "min_price": 3.75,
-      "max_price": 4.8,
-      "avg_price": 4.38,
-      "unit": "บาท/กก.",
-      "status": "official"
-    },
-    {
-      "id": "px-84",
-      "commodity_id": "cmd-cassava-root",
-      "source_id": "src-cassava",
       "price_date": "2026-09-02",
       "min_price": 3.9,
       "max_price": 4.8,
@@ -2173,13 +2162,24 @@
       "status": "official"
     },
     {
-      "id": "px-85",
+      "id": "px-84",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-09-04",
       "min_price": 3.9,
       "max_price": 4.8,
       "avg_price": 4.43,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-85",
+      "commodity_id": "cmd-cassava-root",
+      "source_id": "src-cassava",
+      "price_date": "2026-09-07",
+      "min_price": 3.9,
+      "max_price": 4.8,
+      "avg_price": 4.44,
       "unit": "บาท/กก.",
       "status": "official"
     }
