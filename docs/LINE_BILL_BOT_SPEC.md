@@ -2,6 +2,7 @@
 
 > Status: DRAFT — ready to implement when Grok Bots become available.
 > Created: 2026-10-15
+> Updated: 2026-10-15 — added access control (whitelist) section
 
 ## Goal
 A LINE bot that reads handwritten bills (photos) for daily agricultural produce sales — starting with palm oil — and posts structured summaries back into the LINE group so no one has to manually tally them.
@@ -32,11 +33,24 @@ A LINE bot that reads handwritten bills (photos) for daily agricultural produce 
 - LINE Album: original bill photos
 - Export: Excel / CSV for accounting or downstream processing
 
+## Access control (security)
+- **Group ID check**: bot verifies every incoming message's group ID against a registered allow-list. Messages from unregistered groups are ignored (no reply, no processing).
+- **User ID whitelist**: maintain a list of allowed LINE user IDs. Anyone whose ID is not on the list can send bills but the bot will not respond or save anything. This works even in open groups where new members can join freely.
+- **Channel credentials**: channel secret and access token stored in environment variables, never hardcoded.
+- **Rate limiting**: prevent message flooding / abuse.
+- **Optional PIN**: short password required on first interaction with the bot for an extra layer.
+- Admin command to add/remove whitelisted users (restricted to admin user IDs).
+
 ## Extra features (nice to have)
 - Search past bills in LINE: e.g. type "ปาล์ม ตุลาคม" and the bot returns matching entries
 - Anomaly alert: if today's unit price is far outside the recent normal range, flag it (possible OCR error or a real market move) instead of silently saving
 - Product type separation: palm oil today; rubber, rice, cassava later — same bot, different categories
 - Test with 10–20 real bills before launch to measure OCR accuracy on this handwriting
+
+## Professional additions
+- Role-based access: separate who can send bills, who can confirm, who can see totals
+- Web dashboard for browsing full history beyond LINE
+- Automatic backups so bills and totals are not lost if the server fails
 
 ## Tech notes
 - LINE Messaging API for receiving photos, sending text/images, quick-reply buttons for confirm/edit
