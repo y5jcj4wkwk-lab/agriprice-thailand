@@ -1,7 +1,7 @@
 {
   "meta": {
     "asOf": "2026-10-20",
-    "scrapedAt": "2026-10-20T05:05:51.500Z",
+    "scrapedAt": "2026-10-20T07:48:36.391Z",
     "live": true,
     "sources": [
       "สมาคมผู้ส่งออกข้าวไทย",
@@ -13,8 +13,7 @@
     "notes": [
       "ข้าวเป็นราคาข้าวสารส่งออก FOB กรุงเทพ (ดอลลาร์/ตัน × อัตราขายบาท ธปท.) ไม่ใช่ราคาข้าวเปลือกที่นา",
       "น้ำยางอ้างอิงคอลัมน์น้ำยางของสมาคมยางพาราไทย (* สมาคมน้ำยางข้นไทย)",
-      "ผลปาล์มเป็นราคารับซื้อทะลายสดอ้างอิง สศก. ไม่ใช่ราคาน้ำมันปาล์มดิบ",
-      "มันสำปะหลัง: ใช้ราคารับซื้อโรงแป้งนครราชสีมาล่าสุดที่ตรวจสอบได้"
+      "ผลปาล์มเป็นราคารับซื้อทะลายสดอ้างอิง สศก. ไม่ใช่ราคาน้ำมันปาล์มดิบ"
     ]
   },
   "commodities": [
@@ -2678,7 +2677,7 @@
       "status": "official"
     },
     {
-      "id": "px-81",
+      "id": "px-226",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-10-12",
@@ -2689,7 +2688,7 @@
       "status": "official"
     },
     {
-      "id": "px-82",
+      "id": "px-227",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-10-14",
@@ -2700,7 +2699,7 @@
       "status": "official"
     },
     {
-      "id": "px-83",
+      "id": "px-228",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-10-16",
@@ -2711,7 +2710,7 @@
       "status": "official"
     },
     {
-      "id": "px-84",
+      "id": "px-229",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-10-19",
