@@ -1,7 +1,7 @@
 {
   "meta": {
     "asOf": "2026-10-20",
-    "scrapedAt": "2026-10-20T07:48:36.391Z",
+    "scrapedAt": "2026-10-20T08:58:12.738Z",
     "live": true,
     "sources": [
       "สมาคมผู้ส่งออกข้าวไทย",
@@ -2678,6 +2678,17 @@
     },
     {
       "id": "px-226",
+      "commodity_id": "cmd-palm-ffb",
+      "source_id": "src-chumphon",
+      "price_date": "2026-10-20",
+      "min_price": 7.5,
+      "max_price": 8.6,
+      "avg_price": 7.87,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-227",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-10-12",
@@ -2688,7 +2699,7 @@
       "status": "official"
     },
     {
-      "id": "px-227",
+      "id": "px-228",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-10-14",
@@ -2699,7 +2710,7 @@
       "status": "official"
     },
     {
-      "id": "px-228",
+      "id": "px-229",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-10-16",
@@ -2710,7 +2721,7 @@
       "status": "official"
     },
     {
-      "id": "px-229",
+      "id": "px-230",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-10-19",
