@@ -1,7 +1,7 @@
 {
   "meta": {
     "asOf": "2026-11-04",
-    "scrapedAt": "2026-11-04T11:40:34.314Z",
+    "scrapedAt": "2026-11-04T15:14:14.696Z",
     "live": true,
     "sources": [
       "สมาคมผู้ส่งออกข้าวไทย",
@@ -12,10 +12,9 @@
     ],
     "notes": [
       "ข้าวเป็นราคาข้าวสารส่งออก FOB กรุงเทพ (ดอลลาร์/ตัน × อัตราขายบาท ธปท.) ไม่ใช่ราคาข้าวเปลือกที่นา",
-      "ยาง: ใช้ราคาตลาดท้องถิ่นล่าสุดที่ตรวจสอบได้ หากหน้าเว็บสมาคมไม่ตอบ",
       "น้ำยางอ้างอิงคอลัมน์น้ำยางของสมาคมยางพาราไทย (* สมาคมน้ำยางข้นไทย)",
       "ผลปาล์มเป็นราคารับซื้อทะลายสดอ้างอิง สศก. ไม่ใช่ราคาน้ำมันปาล์มดิบ",
-      "ยาง: ตารางเดือนปัจจุบันยังว่าง — คงราคาประกาศล่าสุด 2026-11-03"
+      "มันสำปะหลัง: ใช้ราคารับซื้อโรงแป้งนครราชสีมาล่าสุดที่ตรวจสอบได้"
     ]
   },
   "commodities": [
@@ -1337,6 +1336,50 @@
       "status": "official"
     },
     {
+      "id": "px-126",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-songkhla",
+      "price_date": "2026-11-04",
+      "min_price": 82,
+      "max_price": 82,
+      "avg_price": 82,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-127",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-surat",
+      "price_date": "2026-11-04",
+      "min_price": 83.5,
+      "max_price": 83.5,
+      "avg_price": 83.5,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-128",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-trang",
+      "price_date": "2026-11-04",
+      "min_price": 84,
+      "max_price": 84,
+      "avg_price": 84,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-129",
+      "commodity_id": "cmd-rubber-rss3",
+      "source_id": "src-phuket",
+      "price_date": "2026-11-04",
+      "min_price": 84,
+      "max_price": 84,
+      "avg_price": 84,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
       "id": "px-20",
       "commodity_id": "cmd-rubber-latex",
       "source_id": "src-songkhla",
@@ -1579,7 +1622,18 @@
       "status": "official"
     },
     {
-      "id": "px-41",
+      "id": "px-130",
+      "commodity_id": "cmd-rubber-latex",
+      "source_id": "src-songkhla",
+      "price_date": "2026-11-04",
+      "min_price": 83,
+      "max_price": 83,
+      "avg_price": 83,
+      "unit": "บาท/กก.",
+      "status": "official"
+    },
+    {
+      "id": "px-131",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-bangna",
       "price_date": "2026-11-04",
@@ -1590,7 +1644,7 @@
       "status": "official"
     },
     {
-      "id": "px-42",
+      "id": "px-132",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-sriracha",
       "price_date": "2026-11-04",
@@ -1601,7 +1655,7 @@
       "status": "official"
     },
     {
-      "id": "px-43",
+      "id": "px-133",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-ratchaburi",
       "price_date": "2026-11-04",
@@ -1612,7 +1666,7 @@
       "status": "official"
     },
     {
-      "id": "px-44",
+      "id": "px-134",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-tharuea",
       "price_date": "2026-11-04",
@@ -1623,7 +1677,7 @@
       "status": "official"
     },
     {
-      "id": "px-45",
+      "id": "px-135",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-korat",
       "price_date": "2026-11-04",
@@ -1634,7 +1688,7 @@
       "status": "official"
     },
     {
-      "id": "px-46",
+      "id": "px-136",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-bangna",
       "price_date": "2026-11-03",
@@ -1645,7 +1699,7 @@
       "status": "official"
     },
     {
-      "id": "px-47",
+      "id": "px-137",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-sriracha",
       "price_date": "2026-11-03",
@@ -1656,7 +1710,7 @@
       "status": "official"
     },
     {
-      "id": "px-48",
+      "id": "px-138",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-ratchaburi",
       "price_date": "2026-11-03",
@@ -1667,7 +1721,7 @@
       "status": "official"
     },
     {
-      "id": "px-49",
+      "id": "px-139",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-tharuea",
       "price_date": "2026-11-03",
@@ -1678,7 +1732,7 @@
       "status": "official"
     },
     {
-      "id": "px-50",
+      "id": "px-140",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-korat",
       "price_date": "2026-11-03",
@@ -1689,7 +1743,7 @@
       "status": "official"
     },
     {
-      "id": "px-51",
+      "id": "px-141",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-bangna",
       "price_date": "2026-11-02",
@@ -1700,7 +1754,7 @@
       "status": "official"
     },
     {
-      "id": "px-52",
+      "id": "px-142",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-sriracha",
       "price_date": "2026-11-02",
@@ -1711,7 +1765,7 @@
       "status": "official"
     },
     {
-      "id": "px-53",
+      "id": "px-143",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-ratchaburi",
       "price_date": "2026-11-02",
@@ -1722,7 +1776,7 @@
       "status": "official"
     },
     {
-      "id": "px-54",
+      "id": "px-144",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-tharuea",
       "price_date": "2026-11-02",
@@ -1733,7 +1787,7 @@
       "status": "official"
     },
     {
-      "id": "px-55",
+      "id": "px-145",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-korat",
       "price_date": "2026-11-02",
@@ -1744,7 +1798,7 @@
       "status": "official"
     },
     {
-      "id": "px-56",
+      "id": "px-146",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-bangna",
       "price_date": "2026-10-30",
@@ -1755,7 +1809,7 @@
       "status": "official"
     },
     {
-      "id": "px-57",
+      "id": "px-147",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-sriracha",
       "price_date": "2026-10-30",
@@ -1766,7 +1820,7 @@
       "status": "official"
     },
     {
-      "id": "px-58",
+      "id": "px-148",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-ratchaburi",
       "price_date": "2026-10-30",
@@ -1777,7 +1831,7 @@
       "status": "official"
     },
     {
-      "id": "px-59",
+      "id": "px-149",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-tharuea",
       "price_date": "2026-10-30",
@@ -1788,7 +1842,7 @@
       "status": "official"
     },
     {
-      "id": "px-60",
+      "id": "px-150",
       "commodity_id": "cmd-corn-feed",
       "source_id": "src-korat",
       "price_date": "2026-10-30",
@@ -1799,7 +1853,7 @@
       "status": "official"
     },
     {
-      "id": "px-61",
+      "id": "px-151",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-06",
@@ -1810,7 +1864,7 @@
       "status": "official"
     },
     {
-      "id": "px-62",
+      "id": "px-152",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-07",
@@ -1821,7 +1875,7 @@
       "status": "official"
     },
     {
-      "id": "px-63",
+      "id": "px-153",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-08",
@@ -1832,7 +1886,7 @@
       "status": "official"
     },
     {
-      "id": "px-64",
+      "id": "px-154",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-09",
@@ -1843,7 +1897,7 @@
       "status": "official"
     },
     {
-      "id": "px-65",
+      "id": "px-155",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-12",
@@ -1854,7 +1908,7 @@
       "status": "official"
     },
     {
-      "id": "px-66",
+      "id": "px-156",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-14",
@@ -1865,7 +1919,7 @@
       "status": "official"
     },
     {
-      "id": "px-67",
+      "id": "px-157",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-15",
@@ -1876,7 +1930,7 @@
       "status": "official"
     },
     {
-      "id": "px-68",
+      "id": "px-158",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-18",
@@ -1887,7 +1941,7 @@
       "status": "official"
     },
     {
-      "id": "px-69",
+      "id": "px-159",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-19",
@@ -1898,7 +1952,7 @@
       "status": "official"
     },
     {
-      "id": "px-70",
+      "id": "px-160",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-20",
@@ -1909,7 +1963,7 @@
       "status": "official"
     },
     {
-      "id": "px-71",
+      "id": "px-161",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-21",
@@ -1920,7 +1974,7 @@
       "status": "official"
     },
     {
-      "id": "px-72",
+      "id": "px-162",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-22",
@@ -1931,7 +1985,7 @@
       "status": "official"
     },
     {
-      "id": "px-73",
+      "id": "px-163",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-26",
@@ -1942,7 +1996,7 @@
       "status": "official"
     },
     {
-      "id": "px-74",
+      "id": "px-164",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-27",
@@ -1953,7 +2007,7 @@
       "status": "official"
     },
     {
-      "id": "px-75",
+      "id": "px-165",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-28",
@@ -1964,7 +2018,7 @@
       "status": "official"
     },
     {
-      "id": "px-76",
+      "id": "px-166",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-29",
@@ -1975,7 +2029,7 @@
       "status": "official"
     },
     {
-      "id": "px-77",
+      "id": "px-167",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-30",
@@ -1986,7 +2040,7 @@
       "status": "official"
     },
     {
-      "id": "px-78",
+      "id": "px-168",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-02",
@@ -1997,7 +2051,7 @@
       "status": "official"
     },
     {
-      "id": "px-79",
+      "id": "px-169",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-03",
@@ -2008,7 +2062,7 @@
       "status": "official"
     },
     {
-      "id": "px-80",
+      "id": "px-170",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-04",
