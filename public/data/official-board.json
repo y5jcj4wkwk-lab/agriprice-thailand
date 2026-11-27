@@ -1,7 +1,7 @@
 {
   "meta": {
     "asOf": "2026-11-27",
-    "scrapedAt": "2026-11-27T13:15:19.008Z",
+    "scrapedAt": "2026-11-27T17:18:27.098Z",
     "live": true,
     "sources": [
       "สมาคมผู้ส่งออกข้าวไทย",
@@ -13,9 +13,11 @@
     "notes": [
       "ข้าว: ใช้ชุดราคา FOB ล่าสุดที่ตรวจสอบได้ หากหน้าเว็บสมาคมไม่ตอบ",
       "ข้าวเป็นราคาข้าวสารส่งออก FOB กรุงเทพ (ดอลลาร์/ตัน × อัตราขายบาท ธปท.) ไม่ใช่ราคาข้าวเปลือกที่นา",
+      "ยาง: ใช้ราคาตลาดท้องถิ่นล่าสุดที่ตรวจสอบได้ หากหน้าเว็บสมาคมไม่ตอบ",
       "น้ำยางอ้างอิงคอลัมน์น้ำยางของสมาคมยางพาราไทย (* สมาคมน้ำยางข้นไทย)",
       "ข้าวโพด: ใช้ราคาโรงงานล่าสุดที่ตรวจสอบได้",
-      "ผลปาล์มเป็นราคารับซื้อทะลายสดอ้างอิง สศก. ไม่ใช่ราคาน้ำมันปาล์มดิบ"
+      "ผลปาล์มเป็นราคารับซื้อทะลายสดอ้างอิง สศก. ไม่ใช่ราคาน้ำมันปาล์มดิบ",
+      "ยาง: ตารางเดือนปัจจุบันยังว่าง — คงราคาประกาศล่าสุด 2026-11-27"
     ]
   },
   "commodities": [
@@ -2756,7 +2758,7 @@
       "status": "official"
     },
     {
-      "id": "px-226",
+      "id": "px-51",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-29",
@@ -2767,7 +2769,7 @@
       "status": "official"
     },
     {
-      "id": "px-227",
+      "id": "px-52",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-10-30",
@@ -2778,7 +2780,7 @@
       "status": "official"
     },
     {
-      "id": "px-228",
+      "id": "px-53",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-02",
@@ -2789,7 +2791,7 @@
       "status": "official"
     },
     {
-      "id": "px-229",
+      "id": "px-54",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-03",
@@ -2800,7 +2802,7 @@
       "status": "official"
     },
     {
-      "id": "px-230",
+      "id": "px-55",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-04",
@@ -2811,7 +2813,7 @@
       "status": "official"
     },
     {
-      "id": "px-231",
+      "id": "px-56",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-05",
@@ -2822,7 +2824,7 @@
       "status": "official"
     },
     {
-      "id": "px-232",
+      "id": "px-57",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-06",
@@ -2833,7 +2835,7 @@
       "status": "official"
     },
     {
-      "id": "px-233",
+      "id": "px-58",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-09",
@@ -2844,7 +2846,7 @@
       "status": "official"
     },
     {
-      "id": "px-234",
+      "id": "px-59",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-10",
@@ -2855,7 +2857,7 @@
       "status": "official"
     },
     {
-      "id": "px-235",
+      "id": "px-60",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-11",
@@ -2866,7 +2868,7 @@
       "status": "official"
     },
     {
-      "id": "px-236",
+      "id": "px-61",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-12",
@@ -2877,7 +2879,7 @@
       "status": "official"
     },
     {
-      "id": "px-237",
+      "id": "px-62",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-13",
@@ -2888,7 +2890,7 @@
       "status": "official"
     },
     {
-      "id": "px-238",
+      "id": "px-63",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-16",
@@ -2899,7 +2901,7 @@
       "status": "official"
     },
     {
-      "id": "px-239",
+      "id": "px-64",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-17",
@@ -2910,7 +2912,7 @@
       "status": "official"
     },
     {
-      "id": "px-240",
+      "id": "px-65",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-18",
@@ -2921,7 +2923,7 @@
       "status": "official"
     },
     {
-      "id": "px-241",
+      "id": "px-66",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-19",
@@ -2932,7 +2934,7 @@
       "status": "official"
     },
     {
-      "id": "px-242",
+      "id": "px-67",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-20",
@@ -2943,7 +2945,7 @@
       "status": "official"
     },
     {
-      "id": "px-243",
+      "id": "px-68",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-23",
@@ -2954,7 +2956,7 @@
       "status": "official"
     },
     {
-      "id": "px-244",
+      "id": "px-69",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-24",
@@ -2965,7 +2967,7 @@
       "status": "official"
     },
     {
-      "id": "px-245",
+      "id": "px-70",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-25",
@@ -2976,7 +2978,7 @@
       "status": "official"
     },
     {
-      "id": "px-246",
+      "id": "px-71",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-26",
@@ -2987,7 +2989,7 @@
       "status": "official"
     },
     {
-      "id": "px-247",
+      "id": "px-72",
       "commodity_id": "cmd-palm-ffb",
       "source_id": "src-chumphon",
       "price_date": "2026-11-27",
@@ -2998,7 +3000,7 @@
       "status": "official"
     },
     {
-      "id": "px-248",
+      "id": "px-73",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-11-20",
@@ -3009,7 +3011,7 @@
       "status": "official"
     },
     {
-      "id": "px-249",
+      "id": "px-74",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-11-23",
@@ -3020,7 +3022,7 @@
       "status": "official"
     },
     {
-      "id": "px-250",
+      "id": "px-75",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-11-25",
@@ -3031,7 +3033,7 @@
       "status": "official"
     },
     {
-      "id": "px-251",
+      "id": "px-76",
       "commodity_id": "cmd-cassava-root",
       "source_id": "src-cassava",
       "price_date": "2026-11-27",
